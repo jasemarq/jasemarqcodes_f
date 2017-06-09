@@ -1,0 +1,55 @@
+.navbar
+{
+	 background-color:transparent !important;
+     border-bottom-color:#a7d3af;
+     background-image:none;
+     box-shadow:none;  
+}
+
+.navbar .navbar-brand
+{
+	color: #353535;
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 200%;
+	padding-left: 7%;
+	font-weight: bold;
+	text-shadow: 1px 1px #a7d3af;
+}
+
+.navbar .navbar-brand:hover
+{
+	color: #a7d3af;
+	font-weight: bold;
+	padding-left: 7%;
+	font-size: 200%;
+	overflow: hidden;
+	text-shadow: 0.5px 0.5px #232323;
+}
+
+.nav li a
+{
+	color: #232323;
+	font-family: 'Unica One', cursive;
+	font-size: 130%;
+	text-align: center;
+	overflow: hidden;
+}
+
+
+.nav li:hover
+{
+	background-color: #a7d3af;
+	opacity: 0.8;
+}
+
+.nav li a:hover
+{
+	color: #232323;
+}
+
+@media only screen and (max-width: 766px)
+{
+	.collapsing, .in { background-color: #353535; }
+	.collapsing ul li a, .in ul li a { color: #a7d3af!important; }
+	.collapsing ul li a:hover, .in ul li a:hover { color: #353535!important; }
+}

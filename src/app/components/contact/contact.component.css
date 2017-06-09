@@ -1,0 +1,59 @@
+form
+{ 
+	margin-top: 15px;
+}
+
+form .form-group
+{
+	margin-top: -10px;
+	width: 90%;
+}
+
+form .form-group input
+{
+	background-color: #353535;
+}
+
+form .form-group input placeholder
+{
+
+}
+
+
+form label
+{
+	font-family: 'Unica One', cursive;
+	text-align: center;
+	color: #6b9972;
+	font-size: 110%;
+	font-weight: bold;
+
+}
+
+form .form-group textarea
+{
+	background-color: #353535;
+}
+
+.form-control:focus {
+  border-color: #a7d3af;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #a7d3af, transparency 0.6;
+}
+
+form .btn
+{
+	border-radius: 0px;
+	width: 90%;
+	background-color: #a7d3af;
+	color: #353535;
+	font-weight: bold;
+	border: 1px #a7d3af solid;
+}
+
+form .btn:hover
+{
+	background-color: #353535;
+	color: #a7d3af;
+	opacity: 0.9;
+}
+
